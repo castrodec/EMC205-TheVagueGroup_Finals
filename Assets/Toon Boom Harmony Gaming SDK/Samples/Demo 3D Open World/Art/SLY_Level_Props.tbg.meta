@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: d3b577d0cb0c0024da10089000b16877
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: d4abdf9202f996f46874ad95f1a6d1ca, type: 3}
+  Initialized: 1
+  DiscretizationStep: 6
+  Framerate: 24
+  Stepped: 1
+  AnimatorController: {instanceID: 0}
+  MaintainCurvesOnClonedClips: 0
+  ClipPrefix: 
+  Shader: {fileID: 4800000, guid: 5d58be77f4b388945991a670eb30940e, type: 3}
+  Material: {instanceID: 0}
+  SRGBTexture: 1
+  FilterMode: 1
+  MipmapEnabled: 1
+  SpriteAtlas: {instanceID: 0}
+  CreatePrefab: 1
+  CreateAnimationClips: 1
+  CreateTextures: 1
+  BaseSpriteStore: {instanceID: 0}
+  GameObjectRenameLookup: []
+AssetOrigin:
+  serializedVersion: 1
+  productId: 197705
+  packageName: Harmony 24 Gaming SDK
+  packageVersion: 2.1.0
+  assetPath: Assets/Toon Boom Harmony Gaming SDK/Samples/Demo 3D Open World/Art/SLY_Level_Props.tbg
+  uploadId: 784734

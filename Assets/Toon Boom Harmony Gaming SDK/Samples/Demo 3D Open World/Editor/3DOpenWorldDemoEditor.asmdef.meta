@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8cd5fe1efe9ee514ca1f32d65407b06d
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 197705
+  packageName: Harmony 24 Gaming SDK
+  packageVersion: 2.1.0
+  assetPath: Assets/Toon Boom Harmony Gaming SDK/Samples/Demo 3D Open World/Editor/3DOpenWorldDemoEditor.asmdef
+  uploadId: 784734

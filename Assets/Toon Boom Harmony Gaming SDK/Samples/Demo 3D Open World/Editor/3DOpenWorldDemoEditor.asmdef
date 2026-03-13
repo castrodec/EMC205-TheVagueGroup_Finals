@@ -1,0 +1,30 @@
+{
+    "name": "3DOpenWorldGameEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f1b8880803e6a77448bf04ac0c73a8da",
+        "GUID:59da4286b3a8cc648b3ac0e7c68cbf88"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.2d.animation",
+            "expression": "0.0.1",
+            "define": "ENABLE_UNITY_2D_ANIMATION"
+        },
+        {
+            "name": "com.unity.collections",
+            "expression": "0.0.1",
+            "define": "ENABLE_UNITY_COLLECTIONS"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cbad205130b53034aace54eb3e49c99b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 197705
+  packageName: Harmony 24 Gaming SDK
+  packageVersion: 2.1.0
+  assetPath: Assets/Toon Boom Harmony Gaming SDK/Samples/Demo 3D Open World/Scripts/CharacterRenderOrder.cs
+  uploadId: 784734
