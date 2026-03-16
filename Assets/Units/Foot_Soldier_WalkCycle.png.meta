@@ -1,0 +1,1592 @@
+fileFormatVersion: 2
+guid: d9529d2ee4ed6bb43b2d11c7df4e3b08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5124159771281210536
+    second: Foot_Soldier_WalkCycle_0
+  - first:
+      213: 3967169420669677925
+    second: Foot_Soldier_WalkCycle_1
+  - first:
+      213: 7711209964771912291
+    second: Foot_Soldier_WalkCycle_2
+  - first:
+      213: 3931047897529043224
+    second: Foot_Soldier_WalkCycle_3
+  - first:
+      213: 1671826482250588238
+    second: Foot_Soldier_WalkCycle_4
+  - first:
+      213: 8935705533918991782
+    second: Foot_Soldier_WalkCycle_5
+  - first:
+      213: -5074278245883906129
+    second: Foot_Soldier_WalkCycle_6
+  - first:
+      213: -1080721269794672486
+    second: Foot_Soldier_WalkCycle_7
+  - first:
+      213: 4096652278852599496
+    second: Foot_Soldier_WalkCycle_8
+  - first:
+      213: 7699527980325543436
+    second: Foot_Soldier_WalkCycle_9
+  - first:
+      213: 2657554715409433091
+    second: Foot_Soldier_WalkCycle_10
+  - first:
+      213: 3242394703393740126
+    second: Foot_Soldier_WalkCycle_11
+  - first:
+      213: -3760796381286266081
+    second: Foot_Soldier_WalkCycle_12
+  - first:
+      213: -5900188923279285659
+    second: Foot_Soldier_WalkCycle_13
+  - first:
+      213: 8410925219733840012
+    second: Foot_Soldier_WalkCycle_14
+  - first:
+      213: -3762596840514971984
+    second: Foot_Soldier_WalkCycle_15
+  - first:
+      213: -5364697016943591813
+    second: Foot_Soldier_WalkCycle_16
+  - first:
+      213: 6403783960616113492
+    second: Foot_Soldier_WalkCycle_17
+  - first:
+      213: -4499824042186044680
+    second: Foot_Soldier_WalkCycle_18
+  - first:
+      213: 3110821996264035308
+    second: Foot_Soldier_WalkCycle_19
+  - first:
+      213: 1066310361129704499
+    second: Foot_Soldier_WalkCycle_20
+  - first:
+      213: -4467789113820569879
+    second: Foot_Soldier_WalkCycle_21
+  - first:
+      213: 1172746120341211130
+    second: Foot_Soldier_WalkCycle_22
+  - first:
+      213: 2191022395946522929
+    second: Foot_Soldier_WalkCycle_23
+  - first:
+      213: 8735642826738854469
+    second: Foot_Soldier_WalkCycle_24
+  - first:
+      213: -3028016824997099997
+    second: Foot_Soldier_WalkCycle_25
+  - first:
+      213: -2964697202452026554
+    second: Foot_Soldier_WalkCycle_26
+  - first:
+      213: -182144941164359566
+    second: Foot_Soldier_WalkCycle_27
+  - first:
+      213: -4601279145950228533
+    second: Foot_Soldier_WalkCycle_28
+  - first:
+      213: 5754664004365281988
+    second: Foot_Soldier_WalkCycle_29
+  - first:
+      213: 1985371380678035781
+    second: Foot_Soldier_WalkCycle_30
+  - first:
+      213: -1939779624487614338
+    second: Foot_Soldier_WalkCycle_31
+  - first:
+      213: -8623195721038400398
+    second: Foot_Soldier_WalkCycle_32
+  - first:
+      213: 4750199772162628152
+    second: Foot_Soldier_WalkCycle_33
+  - first:
+      213: -962205899111698115
+    second: Foot_Soldier_WalkCycle_34
+  - first:
+      213: -5114673000890047907
+    second: Foot_Soldier_WalkCycle_35
+  - first:
+      213: 6068991184260668622
+    second: Foot_Soldier_WalkCycle_36
+  - first:
+      213: -7743863850745741309
+    second: Foot_Soldier_WalkCycle_37
+  - first:
+      213: -455633747510640310
+    second: Foot_Soldier_WalkCycle_38
+  - first:
+      213: 6012232633308548917
+    second: Foot_Soldier_WalkCycle_39
+  - first:
+      213: -7086395591858011940
+    second: Foot_Soldier_WalkCycle_40
+  - first:
+      213: 3599142177581124922
+    second: Foot_Soldier_WalkCycle_41
+  - first:
+      213: 2903260134024328785
+    second: Foot_Soldier_WalkCycle_42
+  - first:
+      213: -9221710031898249936
+    second: Foot_Soldier_WalkCycle_43
+  - first:
+      213: 4027034890773103332
+    second: Foot_Soldier_WalkCycle_44
+  - first:
+      213: 6937711527004247600
+    second: Foot_Soldier_WalkCycle_45
+  - first:
+      213: -3431673759626571715
+    second: Foot_Soldier_WalkCycle_46
+  - first:
+      213: 8102937772952625621
+    second: Foot_Soldier_WalkCycle_47
+  - first:
+      213: 5033646716667806816
+    second: Foot_Soldier_WalkCycle_48
+  - first:
+      213: 7240349082352280577
+    second: Foot_Soldier_WalkCycle_49
+  - first:
+      213: 7992191564472745794
+    second: Foot_Soldier_WalkCycle_50
+  - first:
+      213: -7887557816997777935
+    second: Foot_Soldier_WalkCycle_51
+  - first:
+      213: 7938227079369049545
+    second: Foot_Soldier_WalkCycle_52
+  - first:
+      213: -5460651987268474489
+    second: Foot_Soldier_WalkCycle_53
+  - first:
+      213: -4320327054698715670
+    second: Foot_Soldier_WalkCycle_54
+  - first:
+      213: -4878424818760595598
+    second: Foot_Soldier_WalkCycle_55
+  - first:
+      213: 4480606364446076442
+    second: Foot_Soldier_WalkCycle_56
+  - first:
+      213: -7359715135157712937
+    second: Foot_Soldier_WalkCycle_57
+  - first:
+      213: 7541636806435295285
+    second: Foot_Soldier_WalkCycle_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2490
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853cf6446d353e8b0800000000000000
+      internalID: -5124159771281210536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2489
+        width: 265
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561fec2b1973e0730800000000000000
+      internalID: 3967169420669677925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_2
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 2490
+        width: 258
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aaea27b98b30b60800000000000000
+      internalID: 7711209964771912291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_3
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 2492
+        width: 249
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819c3473c33ed8630800000000000000
+      internalID: 3931047897529043224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_4
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 2493
+        width: 236
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4023a0f355833710800000000000000
+      internalID: 1671826482250588238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_5
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 2494
+        width: 228
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5dbb6f6d0020c70800000000000000
+      internalID: 8935705533918991782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_6
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 2489
+        width: 203
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7f89ee1da8499b0800000000000000
+      internalID: -5074278245883906129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_7
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 2487
+        width: 172
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90fda42bb18001f0800000000000000
+      internalID: -1080721269794672486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_8
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 2488
+        width: 149
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cebd49ea8b3ad830800000000000000
+      internalID: 4096652278852599496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_9
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 2492
+        width: 170
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e1c7d77e73ada60800000000000000
+      internalID: 7699527980325543436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2003
+        width: 195
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302c42feee781e420800000000000000
+      internalID: 2657554715409433091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_11
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 2016
+        width: 219
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e555465cdcc4ffc20800000000000000
+      internalID: 3242394703393740126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_12
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2031
+        width: 244
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b8bd4ed97fecbc0800000000000000
+      internalID: -3760796381286266081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_13
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2050
+        width: 267
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5626e305f615e1ea0800000000000000
+      internalID: -5900188923279285659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_14
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 2056
+        width: 274
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c802c92aceb99b470800000000000000
+      internalID: 8410925219733840012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_15
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 2050
+        width: 279
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b61910db1298cbc0800000000000000
+      internalID: -3762596840514971984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_16
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 2045
+        width: 282
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7eba798c74cc85b0800000000000000
+      internalID: -5364697016943591813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_17
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 2042
+        width: 285
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4551ede559fced850800000000000000
+      internalID: 6403783960616113492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_18
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 2040
+        width: 285
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa0dbdefd96d81c0800000000000000
+      internalID: -4499824042186044680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_19
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 2040
+        width: 285
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce31aceaf1cdb2b20800000000000000
+      internalID: 3110821996264035308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1533
+        width: 277
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c5477bf9b4cce00800000000000000
+      internalID: 1066310361129704499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_21
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1525
+        width: 268
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee1e5be8793ff1c0800000000000000
+      internalID: -4467789113820569879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_22
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1521
+        width: 259
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7c7aa026e664010800000000000000
+      internalID: 1172746120341211130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_23
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1521
+        width: 247
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1395155b243186e10800000000000000
+      internalID: 2191022395946522929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_24
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1513
+        width: 244
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a65741edc3b3970800000000000000
+      internalID: 8735642826738854469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_25
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1507
+        width: 233
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3264424adb25af5d0800000000000000
+      internalID: -3028016824997099997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_26
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1501
+        width: 215
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ba04d1a974bd6d0800000000000000
+      internalID: -2964697202452026554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_27
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 1497
+        width: 190
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270934c1424e87df0800000000000000
+      internalID: -182144941164359566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_28
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 1494
+        width: 167
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf4931def8f420c0800000000000000
+      internalID: -4601279145950228533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_29
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 1492
+        width: 150
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca6be52c6cacdf40800000000000000
+      internalID: 5754664004365281988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_30
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 997
+        width: 157
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5498a8470c47d8b10800000000000000
+      internalID: 1985371380678035781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_31
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1002
+        width: 188
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7800eb75b48415e0800000000000000
+      internalID: -1939779624487614338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_32
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1009
+        width: 213
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27476daed21445880800000000000000
+      internalID: -8623195721038400398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_33
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1020
+        width: 231
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a15ef66891ce140800000000000000
+      internalID: 4750199772162628152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_34
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1039
+        width: 252
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3179ae25de85a2f0800000000000000
+      internalID: -962205899111698115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_35
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1046
+        width: 268
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52eaaf11080509b0800000000000000
+      internalID: -5114673000890047907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_36
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1048
+        width: 279
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc95d2c353693450800000000000000
+      internalID: 6068991184260668622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_37
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1050
+        width: 283
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300cf434bd4488490800000000000000
+      internalID: -7743863850745741309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_38
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 1051
+        width: 283
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41c2fb45834da9f0800000000000000
+      internalID: -455633747510640310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_39
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 1053
+        width: 277
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f0e5fc9bdbf6350800000000000000
+      internalID: 6012232633308548917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 539
+        width: 276
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0c86921c018ad90800000000000000
+      internalID: -7086395591858011940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_41
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 524
+        width: 274
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d49decdb8b2f130800000000000000
+      internalID: 3599142177581124922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_42
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 511
+        width: 273
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156b213b5b37a4820800000000000000
+      internalID: 2903260134024328785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_43
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 502
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0357c0fa597e50080800000000000000
+      internalID: -9221710031898249936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_44
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 502
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e282a2a5e6e2e730800000000000000
+      internalID: 4027034890773103332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_45
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 502
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036983150e3b74060800000000000000
+      internalID: 6937711527004247600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_46
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 502
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30dd6cb5ee3060d0800000000000000
+      internalID: -3431673759626571715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_47
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 502
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1afe929fa637070800000000000000
+      internalID: 8102937772952625621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_48
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 502
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064cbc7f40b1bd540800000000000000
+      internalID: 5033646716667806816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_49
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104ee6f1123ea7460800000000000000
+      internalID: 7240349082352280577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_50
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 5
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f754922e7f9ee60800000000000000
+      internalID: 7992191564472745794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_51
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 5
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fded7c94f3c98290800000000000000
+      internalID: -7887557816997777935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_52
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 5
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5cd2c587f3a2e60800000000000000
+      internalID: 7938227079369049545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_53
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 5
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789e4d803fdd734b0800000000000000
+      internalID: -5460651987268474489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_54
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 5
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae56c2f0f6d1b04c0800000000000000
+      internalID: -4320327054698715670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_55
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 5
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277435e697a5c4cb0800000000000000
+      internalID: -4878424818760595598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_56
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 5
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ea92bcfbf4e2e30800000000000000
+      internalID: 4480606364446076442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_57
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 5
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7cbd8f31a0dd990800000000000000
+      internalID: -7359715135157712937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot_Soldier_WalkCycle_58
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 5
+        width: 270
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5305698d7b649a860800000000000000
+      internalID: 7541636806435295285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
