@@ -33,19 +33,8 @@ public class AttackingState : IState
     
     if (_unit.unitData.isRanged) 
     {
-        if (_unit.currentAmmo <= 0)
-            {
-                _unit.ChangeState(_unit.reloadingState);
-            }
-        
-        // Instead of hardcoding indices, we use the data from the SO
-        ObjectPooler.Instance.SpawnProjectile(
-            _unit.unitData.projectileData, // The data asset
-            _unit.transform.position, 
-            Quaternion.identity, 
-            _unit.isAlly, 
-            enemy.transform
-        );
+        if (_unit.currentAmmo <= 0) _unit.ChangeState(_unit.reloadingState);
+        else _unit.ShootBullet(_unit.target.transform);
     } 
     else 
     {
