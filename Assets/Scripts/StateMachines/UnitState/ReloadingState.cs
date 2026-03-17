@@ -1,15 +1,26 @@
 using UnityEngine;
 
-public class ReloadingState : MonoBehaviour
+public class ReloadingState : IState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private UnitController _unit;
+
+    public ReloadingState(UnitController unit)
+    {
+        _unit = unit;
+    }
+
+    public void Enter()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Tick()
+    {
+        // Implement attack logic here
+        
+    }
+
+    public void Exit()
     {
         
     }
