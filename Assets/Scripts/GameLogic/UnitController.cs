@@ -1,26 +1,18 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Pool;
 
 public class UnitController : MonoBehaviour, IDamageable
 {
     public UnitScriptableObject unitData;
-    [HideInInspector] public IState currentState;
-    [HideInInspector] public IState marchingState, attackingState, flyingState, reloadingState;
+    [HideInInspector] public IState currentState, marchingState, attackingState, flyingState, reloadingState;
 
-    [Header("Runtime Attributes")]
-    public int currentHealth;
-    public int currentAmmo;
+    public int currentHealth, currentAmmo;
     public GameObject target;
     public bool isAlly;
-    private IObjectPool<UnitController> pool;
+    private IObjectPool<UnitController> _pool;
 
-    public void Initialize(UnitScriptableObject data)
-    {
-        unitData = data;
-        ChangeState(marchingState);
-    }
-
-    void Awake()
+    private void Awake()
     {
         marchingState = new MarchingState(this);
         attackingState = new AttackingState(this);
@@ -28,61 +20,71 @@ public class UnitController : MonoBehaviour, IDamageable
         reloadingState = new ReloadingState(this);
     }
 
-    void Start()
+    private void Start()
     {
-        currentHealth = unitData.maxHealth;
-        currentAmmo = unitData.ammoCapacity;
-        ChangeState(marchingState);
+        ResetUnit(transform.position, transform.rotation, isAlly,  unitData);
+        ChangeState(unitData.attackType == UnitScriptableObject.AttackType.Flying ? flyingState : marchingState);
     }
 
-    void Update()
-    {
-        currentState?.Tick();
-    }
+    private void Update() => currentState?.Tick();
 
     public void ChangeState(IState newState)
     {
-        if (currentState != null)
-            currentState?.Exit();
-
+        currentState?.Exit();
         currentState = newState;
-
-        if (currentState != null)
-            currentState?.Enter();
+        currentState?.Enter();
     }
 
-    public void TakeDamage(int damage)
+    // --- CORE LOGIC METHODS ---
+
+    public void HandleBasicMovement()
     {
-        currentHealth -= damage;
-        Debug.Log(name + " Got hit!");
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
+        float direction = isAlly ? 1 : -1;
+        transform.Translate(Vector2.right * direction * unitData.moveSpeed * Time.deltaTime);
     }
 
-    public void ResetUnit(Vector2 position, Quaternion direction, bool isAlly)
+    public bool DetectEnemy()
+    {
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, unitData.attackRange, unitData.targetLayer);
+        string targetTag = isAlly ? "Enemy" : "Ally";
+
+        if (hit != null && hit.CompareTag(targetTag))
+        {
+            target = hit.gameObject;
+            return true;
+        }
+        return false;
+    }
+
+    public void ShootDirection(Vector2 direction) => ObjectPooler.Instance.SpawnProjectile(unitData.projectileData, transform.position, null, direction, isAlly);
+
+    public void ShootTarget(Transform target) => ObjectPooler.Instance.SpawnProjectile(unitData.projectileData, transform.position, target, Vector2.zero, isAlly);
+
+    public void TakeDamage(int damage) { currentHealth -= damage; if (currentHealth <= 0) Die(); }
+    public void Die() => _pool?.Release(this);
+
+    public void ResetUnit(Vector2 pos, Quaternion rot, bool ally, UnitScriptableObject data)
     {
         currentHealth = unitData.maxHealth;
         currentAmmo = unitData.ammoCapacity;
-        transform.position = position;
-        transform.rotation = direction;
-        this.isAlly = isAlly;
+        transform.position = pos;
+        transform.rotation = rot;
+        isAlly = ally;
+        gameObject.tag = isAlly ? "Ally" : "Enemy";
+        unitData = data;
     }
 
-    public void Die()
-    {
-        pool.Release(this);
-    }
+    public void SetPool(IObjectPool<UnitController> pool) => _pool = pool;
 
-    public void SetPool(IObjectPool<UnitController> pool)
+    void OnDrawGizmos()
     {
-        this.pool = pool;
-    }
+        Gizmos.color = Color.white;
+        Gizmos.DrawWireSphere(transform.position, unitData.attackRange);
 
-    public void ShootBullet(Transform targetPosition)
-    {
-        ObjectPooler.Instance.SpawnProjectile(unitData.projectileData, transform.position, Quaternion.identity, isAlly, targetPosition);
-        currentAmmo--;
+        if (target != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawLine(transform.position, target.transform.position);
+        }
     }
 }

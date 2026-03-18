@@ -10,16 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1cd4fc09055edc1418150c4a8adcd024, type: 3}
-  m_Name: FootSoldierAlly
+  m_Name: AssaultSoldier
   m_EditorClassIdentifier: 
-  unitName: Foot Soldier Ally
+  unitName: Assault Soldier
   maxHealth: 10
-  moveSpeed: 2
-  cost: 0
+  moveSpeed: 1
   projectileData: {fileID: 11400000, guid: 628f8d168bb967f4bb26d911e851695b, type: 2}
-  canFly: 0
-  isRanged: 0
-  attackDamage: 2
-  attackInterval: 1
-  attackRange: 1
-  ammoCapacity: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  attackType: 1
+  attackDamage: 1
+  attackInterval: 0.5
+  attackRange: 10
+  ammoCapacity: 5
+  reloadTime: 3
+  flightHeight: 3
+  hoverSpeed: 2
+  hoverAmount: 0.5

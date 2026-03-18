@@ -9,12 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d40fdcfae245b99448d48a27cd39e66d, type: 3}
-  m_Name: BulletData
+  m_Script: {fileID: 11500000, guid: e90bfc7b5f0f74549b2efe83429ec0f4, type: 3}
+  m_Name: TurretData
   m_EditorClassIdentifier: 
-  projectileSpeed: 10
-  projectileDamage: 1
+  turretName: 
+  damage: 0
+  range: 0
+  fireRate: 0
   isAOE: 0
-  isTurretProjectile: 0
-  lifeTime: 1
-  aoeRadius: 0
+  isTracking: 0
+  turretPrefab: {fileID: 0}
+  cost: 0

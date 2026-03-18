@@ -3,44 +3,37 @@ using UnityEngine;
 public class AttackingState : IState
 {
     private UnitController _unit;
-    private float _lastAttackTime;
+    private float _attackTimer;
 
     public AttackingState(UnitController unit) => _unit = unit;
 
-    public void Enter() => Debug.Log(_unit.name + " started attacking!");
+    public void Enter() => _attackTimer = _unit.unitData.attackInterval;
 
     public void Tick()
     {
-        // 1. Check if target still exists and is in range
         if (_unit.target == null || Vector2.Distance(_unit.transform.position, _unit.target.transform.position) > _unit.unitData.attackRange)
         {
-            _unit.target = null;
             _unit.ChangeState(_unit.marchingState);
             return;
         }
 
-        // 2. Attack based on interval
-        if (Time.time >= _lastAttackTime + _unit.unitData.attackInterval)
+        _attackTimer += Time.deltaTime;
+        if (_attackTimer >= _unit.unitData.attackInterval)
         {
-            PerformAttack();
-            _lastAttackTime = Time.time;
+            if (_unit.unitData.attackType == UnitScriptableObject.AttackType.Ranged)
+            {
+                if (_unit.currentAmmo <= 0) { _unit.ChangeState(_unit.reloadingState); return; }
+                
+                _unit.ShootTarget(_unit.target.transform);
+                _unit.currentAmmo--;
+            }
+            else // Melee
+            {
+                _unit.target.GetComponent<IDamageable>()?.TakeDamage(_unit.unitData.attackDamage);
+            }
+            _attackTimer = 0;
         }
     }
-
-    private void PerformAttack()
-{
-    var enemy = _unit.target.GetComponent<UnitController>();
-    
-    if (_unit.unitData.isRanged) 
-    {
-        if (_unit.currentAmmo <= 0) _unit.ChangeState(_unit.reloadingState);
-        else _unit.ShootBullet(_unit.target.transform);
-    } 
-    else 
-    {
-        enemy.TakeDamage(_unit.unitData.attackDamage);
-    }
-}
 
     public void Exit() { }
 }

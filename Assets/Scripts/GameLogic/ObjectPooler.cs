@@ -79,20 +79,25 @@ public class ObjectPooler : MonoBehaviour
         {
             UnitController unit = pool.Get();
             unit.SetPool(pool);
-            unit.ResetUnit(position, isAlly ? Quaternion.identity : Quaternion.Euler(0, 180, 0), isAlly);
-            unit.Initialize(data);
+            unit.ResetUnit(position, isAlly ? Quaternion.identity : Quaternion.Euler(0, 180, 0), isAlly, data);
             return unit;
         }
         return null;
     }
 
-    public ProjectileController SpawnProjectile(ProjectileScriptableObject data, Vector2 position, Quaternion rotation, bool isAllyProjectile, Transform targetPosition) {
+    public ProjectileController SpawnProjectile(ProjectileScriptableObject data, Vector2 position, Transform target, Vector2 direction, bool isAllyProjectile) 
+    {
         if (projectilePools.TryGetValue(data, out var pool))
         {
             ProjectileController projectile = pool.Get();
             projectile.SetPool(pool);
-            projectile.ResetProjectile(position, rotation, isAllyProjectile, targetPosition);
-            projectile.Initialize(data);
+            
+            // Set position first
+            projectile.transform.position = position;
+            
+            // Initialize with direction instead of a target Transform
+            projectile.Initialize(target, direction, isAllyProjectile, data);
+            
             return projectile;
         }
         return null;

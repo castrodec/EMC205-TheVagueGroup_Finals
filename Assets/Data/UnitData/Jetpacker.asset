@@ -10,16 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1cd4fc09055edc1418150c4a8adcd024, type: 3}
-  m_Name: AssaultSoldierAlly
+  m_Name: Jetpacker
   m_EditorClassIdentifier: 
-  unitName: Assault Soldier Ally
-  maxHealth: 10
-  moveSpeed: 1
-  cost: 0
+  unitName: Jetpacker
+  maxHealth: 5
+  moveSpeed: 3
   projectileData: {fileID: 11400000, guid: 628f8d168bb967f4bb26d911e851695b, type: 2}
-  canFly: 0
-  isRanged: 1
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  attackType: 2
   attackDamage: 1
-  attackInterval: 0.5
-  attackRange: 10
-  ammoCapacity: 5
+  attackInterval: 0.25
+  attackRange: 5
+  ammoCapacity: 0
+  reloadTime: 0
+  flightHeight: 1.5
+  hoverSpeed: 2
+  hoverAmount: 0.5

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4692179372983206391}
   - component: {fileID: 8861033233046537793}
   - component: {fileID: 4060728520327724566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Foot Soldier Ally Test
   m_TagString: Ally
   m_Icon: {fileID: 0}
@@ -103,6 +103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitData: {fileID: 11400000, guid: 0ae11e5f7c3f9a54f90f41e7dda2e0b2, type: 2}
   currentHealth: 0
+  currentAmmo: 0
   target: {fileID: 0}
   isAlly: 1
 --- !u!58 &4060728520327724566
@@ -135,7 +136,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
