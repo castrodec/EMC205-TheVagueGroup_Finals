@@ -1,13 +1,22 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class InputHandler : MonoBehaviour
 {
+    [System.Serializable]
+    public class KeybindDefinition
+    {
+        public string function;
+        public KeyCode keybind;
+    }
+
     public CameraController cameraController;
     public float keyboardSpeed = 30f;
     public float dragSensitivity = 0.05f; 
     public TurretBuilder turretBuilder;
     public TurretScriptableObject basicData, siloData, shockerData;
     private Vector3 _lastMousePosition;
+    public List<KeybindDefinition> keybindDefinitions = new List<KeybindDefinition>();
 
     private void Update()
     {

@@ -321,6 +321,7 @@ MonoBehaviour:
   basicData: {fileID: 0}
   siloData: {fileID: 0}
   shockerData: {fileID: 0}
+  keybindDefinitions: []
 --- !u!4 &626711313
 Transform:
   m_ObjectHideFlags: 0
@@ -772,8 +773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a435f36e27d74459d5d59aa4c066c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minX: -41
-  maxX: 41
+  minX: -40
+  maxX: 40
 --- !u!1 &1850022175
 GameObject:
   m_ObjectHideFlags: 0
