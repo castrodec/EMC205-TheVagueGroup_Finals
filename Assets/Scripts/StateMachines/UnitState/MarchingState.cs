@@ -11,14 +11,18 @@ public class MarchingState : IState
     // MarchingState.cs
     public void Tick()
     {
-        // 1. Call the consolidated movement logic in the Controller
-        _unit.HandleBasicMovement();
-
-        // 2. Use the Controller's detection logic to see if we should fight
+        // Use the Controller's detection logic to see if we should fight
         if (_unit.DetectEnemy())
         {
             _unit.ChangeState(_unit.attackingState);
         }
+
+        if (_unit.DetectAllyInFront())
+        {
+            return;
+        }
+
+        _unit.HandleBasicMovement();
     }
 
     public void Exit() { }

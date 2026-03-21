@@ -1,4 +1,4 @@
-using Unity.VisualScripting;
+using System;
 using UnityEngine;
 using UnityEngine.Pool;
 
@@ -12,16 +12,13 @@ public class UnitController : MonoBehaviour, IDamageable
     public bool isAlly;
     private IObjectPool<UnitController> _pool;
 
-    private void Awake()
+    private void Start()
     {
         marchingState = new MarchingState(this);
         attackingState = new AttackingState(this);
         flyingState = new FlyingState(this);
         reloadingState = new ReloadingState(this);
-    }
 
-    private void Start()
-    {
         ResetUnit(transform.position, transform.rotation, isAlly,  unitData);
         ChangeState(unitData.attackType == UnitScriptableObject.AttackType.Flying ? flyingState : marchingState);
     }
@@ -39,20 +36,41 @@ public class UnitController : MonoBehaviour, IDamageable
 
     public void HandleBasicMovement()
     {
-        float direction = isAlly ? 1 : -1;
-        transform.Translate(Vector2.right * direction * unitData.moveSpeed * Time.deltaTime);
+        transform.Translate(Vector2.right * unitData.moveSpeed * Time.deltaTime);
     }
 
     public bool DetectEnemy()
     {
-        Collider2D hit = Physics2D.OverlapCircle(transform.position, unitData.attackRange, unitData.targetLayer);
+        // Use All to ensure we don't just stop at the first collider hit (which might be the unit itself)
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, unitData.attackRange, unitData.targetLayer);
         string targetTag = isAlly ? "Enemy" : "Ally";
 
-        if (hit != null && hit.CompareTag(targetTag))
+        foreach (var hit in hits)
         {
-            target = hit.gameObject;
+            if (hit.gameObject == gameObject) continue;
+
+            if (hit.CompareTag(targetTag))
+            {
+                target = hit.gameObject;
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool DetectAllyInFront()
+    {
+        Vector2 direction = isAlly ? Vector2.right : Vector2.left;
+        float distance = 1f;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, unitData.targetLayer);
+
+        if (hit && hit.collider.gameObject.GetComponent<UnitController>().unitData.attackType == unitData.attackType
+        && hit.collider.CompareTag(isAlly ? "Ally" : "Enemy"))
+        {
+            target = hit.transform.gameObject;
             return true;
         }
+
         return false;
     }
 
@@ -60,8 +78,20 @@ public class UnitController : MonoBehaviour, IDamageable
 
     public void ShootTarget(Transform target) => ObjectPooler.Instance.SpawnProjectile(unitData.projectileData, transform.position, target, Vector2.zero, isAlly);
 
-    public void TakeDamage(int damage) { currentHealth -= damage; if (currentHealth <= 0) Die(); }
-    public void Die() => _pool?.Release(this);
+    public void TakeDamage(int damage) 
+    {
+        if (currentHealth <= 0) return;
+        currentHealth -= damage;
+        if (currentHealth <= 0) Die();
+    }
+    public void Die()
+    {
+        _pool.Release(this);
+        if (!isAlly) {
+            ResourceManager.Instance.AddCoins(Mathf.RoundToInt(unitData.unitCost * 1.2f));
+            WaveManager.Instance.EnemyDied();
+        }
+    }
 
     public void ResetUnit(Vector2 pos, Quaternion rot, bool ally, UnitScriptableObject data)
     {

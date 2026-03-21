@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90bfc7b5f0f74549b2efe83429ec0f4, type: 3}
   m_Name: MissileTurretData
   m_EditorClassIdentifier: 
-  turretName: Missile Turret
+  turretName: Missile Silo
   turretType: 1
-  maxHealth: 20
+  maxHealth: 30
   cost: 0
   fireRate: 4
-  range: 8
-  damage: 3
+  range: 5
+  damage: 4

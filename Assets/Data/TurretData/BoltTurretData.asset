@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90bfc7b5f0f74549b2efe83429ec0f4, type: 3}
   m_Name: BoltTurretData
   m_EditorClassIdentifier: 
-  turretName: Bolt Turret
+  turretName: Basic Turret
   turretType: 0
   maxHealth: 10
   cost: 0

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e90bfc7b5f0f74549b2efe83429ec0f4, type: 3}
   m_Name: TrapTurretData
   m_EditorClassIdentifier: 
-  turretName: Shocker Turret
+  turretName: Shocker Trap
   turretType: 2
   maxHealth: 1
   cost: 0
   fireRate: 0
   range: 1
-  damage: 1
+  damage: 5

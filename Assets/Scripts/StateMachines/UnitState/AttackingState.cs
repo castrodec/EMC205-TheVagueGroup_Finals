@@ -11,7 +11,7 @@ public class AttackingState : IState
 
     public void Tick()
     {
-        if (_unit.target == null || Vector2.Distance(_unit.transform.position, _unit.target.transform.position) > _unit.unitData.attackRange)
+        if (_unit.target == null || _unit.target.gameObject.activeSelf == false)
         {
             _unit.ChangeState(_unit.marchingState);
             return;

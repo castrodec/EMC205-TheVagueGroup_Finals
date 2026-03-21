@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: TurretBoltData
   m_EditorClassIdentifier: 
   projectileSpeed: 20
-  projectileDamage: 0
+  projectileDamage: 2
   isAOE: 0
-  isTurretProjectile: 1
-  lifeTime: 0
+  lifeTime: 5
   aoeRadius: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64

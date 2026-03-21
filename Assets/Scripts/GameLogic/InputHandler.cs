@@ -1,33 +1,22 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class InputHandler : MonoBehaviour
 {
-    [System.Serializable]
-    public class KeybindDefinition
-    {
-        public string function;
-        public KeyCode keybind;
-    }
 
     public CameraController cameraController;
     public float keyboardSpeed = 30f;
     public float dragSensitivity = 0.05f; 
-    public TurretBuilder turretBuilder;
-    public TurretScriptableObject basicData, siloData, shockerData;
     private Vector3 _lastMousePosition;
-    public List<KeybindDefinition> keybindDefinitions = new List<KeybindDefinition>();
 
     private void Update()
     {
         HandleKeyboard();
         HandleMouseDrag();
-        HandleBuildInputs();
     }
 
     private void HandleKeyboard()
     {
-        float x = UnityEngine.Input.GetAxisRaw("Horizontal");
+        float x = Input.GetAxisRaw("Horizontal");
         if (x != 0)
         {
             float speed = x * keyboardSpeed * Time.deltaTime;
@@ -35,30 +24,17 @@ public class InputHandler : MonoBehaviour
         }
     }
 
-    private void HandleBuildInputs()
-    {
-        if (Input.GetKeyDown(KeyCode.E)) ExecuteBuildCommand(basicData);
-        if (Input.GetKeyDown(KeyCode.R)) ExecuteBuildCommand(siloData);
-        if (Input.GetKeyDown(KeyCode.T)) ExecuteBuildCommand(shockerData);
-    }
-
-    private void ExecuteBuildCommand(TurretScriptableObject data)
-    {
-        ICommand cmd = new PrepareTurretCommand(turretBuilder, data);
-        cmd.Execute();
-    }
-
     private void HandleMouseDrag()
     {
-        if (UnityEngine.Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
-            _lastMousePosition = UnityEngine.Input.mousePosition;
+            _lastMousePosition = Input.mousePosition;
         }
 
-        if (UnityEngine.Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0))
         {
             // Calculate how far the mouse moved IN PIXELS since last frame
-            Vector3 delta = UnityEngine.Input.mousePosition - _lastMousePosition;
+            Vector3 delta = Input.mousePosition - _lastMousePosition;
             
             if (delta.x != 0)
             {
@@ -67,7 +43,7 @@ public class InputHandler : MonoBehaviour
                 ExecuteScroll(moveDistance);
             }
 
-            _lastMousePosition = UnityEngine.Input.mousePosition;
+            _lastMousePosition = Input.mousePosition;
         }
     }
 

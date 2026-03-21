@@ -9,6 +9,7 @@ public class UnitScriptableObject : ScriptableObject
     public string unitName;
     public int maxHealth;
     public float moveSpeed;
+    public int unitCost;
     public ProjectileScriptableObject projectileData;
     public LayerMask targetLayer;
 

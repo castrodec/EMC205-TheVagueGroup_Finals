@@ -25,6 +25,8 @@ public class ProjectileController : MonoBehaviour
             Vector2 dir = (_target.position - transform.position).normalized;
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+            if (_target.gameObject.activeSelf == false) ReturnProjectile();
         }
         else
         {
@@ -51,11 +53,27 @@ public class ProjectileController : MonoBehaviour
         string targetTag = _isAllyProjectile ? "Enemy" : "Ally";
         if (other.CompareTag(targetTag))
         {
-            other.GetComponent<IDamageable>()?.TakeDamage(projectileData.projectileDamage);
-            ReturnProjectile();
+            DamageEnemy(projectileData.isAOE);
         }
         
         if (other.CompareTag("Floor")) ReturnProjectile();
+    }
+
+    void DamageEnemy(bool isAOE)
+    {
+        if (!isAOE && _target != null)
+        {
+            _target.GetComponent<IDamageable>()?.TakeDamage(projectileData.projectileDamage);
+            ReturnProjectile();
+        } 
+        else
+        {
+            foreach (Collider2D hit in Physics2D.OverlapCircleAll(transform.position, projectileData.aoeRadius, projectileData.targetLayer))
+            {
+                hit.GetComponent<IDamageable>()?.TakeDamage(projectileData.projectileDamage);
+            }
+            ReturnProjectile();
+        }
     }
 
     public void SetPool(IObjectPool<ProjectileController> pool) => _pool = pool;
