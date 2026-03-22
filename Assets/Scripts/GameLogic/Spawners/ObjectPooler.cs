@@ -4,7 +4,6 @@ using UnityEngine.Pool;
 
 public class ObjectPooler : MonoBehaviour
 {
-    public static ObjectPooler Instance { get; private set; }
     [System.Serializable]
     public class UnitPoolDefinition {
         public string label; // This is what you'll see in the Inspector list
@@ -26,25 +25,28 @@ public class ObjectPooler : MonoBehaviour
         public TurretController prefab;
     }
 
+    public static ObjectPooler Instance { get; private set; }
+
     [Header("Pool Settings")]
-    [SerializeField] private const int DEFAULT = 50;
-    [SerializeField] private const int MAX_POOL_SIZE = 200;
+    [SerializeField] private const int DEFAULT = 100;
+    [SerializeField] private const int MAX_POOL_SIZE = 300;
 
     [Header("Dictionaries and Definitions")]
     public List<UnitPoolDefinition> unitDefinitions;
     public List<ProjectilePoolDefinition> projectileDefinitions;
     public List<TurretPoolDefinition> turretDefinitions;
+
     private Dictionary<UnitScriptableObject, ObjectPool<UnitController>> unitPools = 
     new Dictionary<UnitScriptableObject, ObjectPool<UnitController>>();
     private Dictionary<ProjectileScriptableObject, ObjectPool<ProjectileController>> projectilePools = 
     new Dictionary<ProjectileScriptableObject, ObjectPool<ProjectileController>>();
-
     private Dictionary<TurretScriptableObject, ObjectPool<TurretController>> turretPools =
     new Dictionary<TurretScriptableObject, ObjectPool<TurretController>>();
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null) Instance = this;
+        else Destroy(this);
 
         InitializeProjectilePool();
         InitializeUnitPool();
@@ -64,6 +66,16 @@ public class ObjectPooler : MonoBehaviour
                 defaultCapacity: DEFAULT,
                 maxSize: MAX_POOL_SIZE
                 );
+
+            List<ProjectileController> allProjectiles = new List<ProjectileController>();
+            for (int i = 0; i < DEFAULT; i++)
+            {
+                allProjectiles.Add(pool.Get());
+                allProjectiles[i].SetPool(pool);
+            }
+
+            foreach (var projectileController in allProjectiles) pool.Release(projectileController);
+
             projectilePools.Add(projectile.data, pool);
         }
     }
@@ -81,6 +93,14 @@ public class ObjectPooler : MonoBehaviour
                 defaultCapacity: DEFAULT,
                 maxSize: MAX_POOL_SIZE
                 );
+
+            List<UnitController> allUnits = new List<UnitController>();
+            for (int i = 0; i < DEFAULT; i++)
+            {
+                allUnits.Add(pool.Get());
+            }
+
+            foreach (var projectileController in allUnits) pool.Release(projectileController);
             unitPools.Add(unit.data, pool);
         }
     }
@@ -98,6 +118,14 @@ public class ObjectPooler : MonoBehaviour
                 defaultCapacity: DEFAULT,
                 maxSize: MAX_POOL_SIZE
                 );
+            
+            List<TurretController> allTurrets = new List<TurretController>();
+            for (int i = 0; i < DEFAULT; i++)
+            {
+                allTurrets.Add(pool.Get());
+            }
+
+            foreach (var projectileController in allTurrets) pool.Release(projectileController);
             turretPools.Add(turret.data, pool);
         }
     }
@@ -114,7 +142,7 @@ public class ObjectPooler : MonoBehaviour
         return null;
     }
 
-    public ProjectileController SpawnProjectile(ProjectileScriptableObject data, Vector2 position, Transform target, Vector2 direction, bool isAllyProjectile) 
+    public ProjectileController SpawnProjectile(ProjectileScriptableObject data, Vector2 position, GameObject target, Vector2 direction, bool isAllyProjectile) 
     {
         if (projectilePools.TryGetValue(data, out var pool))
         {
@@ -137,10 +165,13 @@ public class ObjectPooler : MonoBehaviour
         if (turretPools.TryGetValue(data, out var pool))
         {
             TurretController turret = pool.Get();
-            // turret.SetPool(pool);
-            // turret.ResetTurret(position, data);
+            turret.SetPool(pool);
+            turret.ResetTurret(position, data);
             return turret;
         }
         return null;
     }
+
+    public UnitController SpawnRandomUnit(Vector2 position, bool isAlly) 
+    => SpawnUnit(unitDefinitions[Random.Range(0, unitDefinitions.Count)].data, position, isAlly);
 }

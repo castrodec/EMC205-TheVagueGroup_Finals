@@ -14,17 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Assault Soldier
   maxHealth: 10
-  moveSpeed: 1
+  moveSpeed: 3
+  unitCost: 20
   projectileData: {fileID: 11400000, guid: 628f8d168bb967f4bb26d911e851695b, type: 2}
-  targetLayer:
-    serializedVersion: 2
-    m_Bits: 64
   attackType: 1
   attackDamage: 1
   attackInterval: 0.5
   attackRange: 10
   ammoCapacity: 5
   reloadTime: 3
-  flightHeight: 3
-  hoverSpeed: 2
-  hoverAmount: 0.5
+  flightHeight: 0
+  hoverSpeed: 0
+  hoverAmount: 0

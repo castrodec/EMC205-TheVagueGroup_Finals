@@ -11,7 +11,16 @@ public class AttackingState : IState
 
     public void Tick()
     {
-        if (_unit.target == null || Vector2.Distance(_unit.transform.position, _unit.target.transform.position) > _unit.unitData.attackRange)
+        // Safety check: if target died or was disabled by something else
+        if (_unit.target == null || !_unit.target.activeSelf)
+        {
+            _unit.ChangeState(_unit.marchingState);
+            return;
+        }
+
+        float distance = Vector2.Distance(_unit.transform.position, _unit.target.transform.position);
+        
+        if (distance > _unit.unitData.attackRange)
         {
             _unit.ChangeState(_unit.marchingState);
             return;
@@ -24,7 +33,7 @@ public class AttackingState : IState
             {
                 if (_unit.currentAmmo <= 0) { _unit.ChangeState(_unit.reloadingState); return; }
                 
-                _unit.ShootTarget(_unit.target.transform);
+                _unit.ShootTarget(_unit.target);
                 _unit.currentAmmo--;
             }
             else // Melee
@@ -35,5 +44,8 @@ public class AttackingState : IState
         }
     }
 
-    public void Exit() { }
+    public void Exit()
+    {
+        _unit.target = null;
+    }
 }

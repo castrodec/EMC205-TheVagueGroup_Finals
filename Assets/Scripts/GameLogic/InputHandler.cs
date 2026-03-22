@@ -2,23 +2,35 @@ using UnityEngine;
 
 public class InputHandler : MonoBehaviour
 {
+    [Header("Camera Input Settings")]
     public CameraController cameraController;
     public float keyboardSpeed = 30f;
     public float dragSensitivity = 0.05f; 
-    public TurretBuilder turretBuilder;
-    public TurretScriptableObject basicData, siloData, shockerData;
     private Vector3 _lastMousePosition;
+
+    [Header("References")]
+    public UnitSpawner unitSpawner;
+    public AirStrikeHandler airStrikeHandler;
+    public GameManager playerManager;
+    public BuildManager buildManager;
+
+    [Header("UnitData")]
+    public UnitScriptableObject footSoldier, assaultSoldier, jetpacker;
+
+    [Header("TurretData")]
+    public TurretScriptableObject basicTurret, missileSilo, shockTrap;
+    
 
     private void Update()
     {
         HandleKeyboard();
         HandleMouseDrag();
-        HandleBuildInputs();
+        HandleHotkeys(); // New method
     }
 
     private void HandleKeyboard()
     {
-        float x = UnityEngine.Input.GetAxisRaw("Horizontal");
+        float x = Input.GetAxisRaw("Horizontal");
         if (x != 0)
         {
             float speed = x * keyboardSpeed * Time.deltaTime;
@@ -26,30 +38,36 @@ public class InputHandler : MonoBehaviour
         }
     }
 
-    private void HandleBuildInputs()
+    private void HandleHotkeys()
     {
-        if (Input.GetKeyDown(KeyCode.E)) ExecuteBuildCommand(basicData);
-        if (Input.GetKeyDown(KeyCode.R)) ExecuteBuildCommand(siloData);
-        if (Input.GetKeyDown(KeyCode.T)) ExecuteBuildCommand(shockerData);
-    }
+        // --- UNITS (1, 2, 3) ---
+        if (Input.GetKeyDown(KeyCode.Alpha1)) unitSpawner.EnqueueSummon(footSoldier);
+        if (Input.GetKeyDown(KeyCode.Alpha2)) unitSpawner.EnqueueSummon(assaultSoldier);
+        if (Input.GetKeyDown(KeyCode.Alpha3)) unitSpawner.EnqueueSummon(jetpacker);
 
-    private void ExecuteBuildCommand(TurretScriptableObject data)
-    {
-        ICommand cmd = new PrepareTurretCommand(turretBuilder, data);
-        cmd.Execute();
+        // --- BUILD MODE (E, R, T) ---
+        if (Input.GetKeyDown(KeyCode.E)) buildManager.EnterBuildMode(basicTurret);
+        if (Input.GetKeyDown(KeyCode.R)) buildManager.EnterBuildMode(missileSilo);
+        if (Input.GetKeyDown(KeyCode.T)) buildManager.EnterBuildMode(shockTrap);
+
+        // --- ABILITIES (Q) ---
+        if (Input.GetKeyDown(KeyCode.Q)) airStrikeHandler.StartAirStrike();
+
+        // --- PAUSE (ESC) ---
+        if (Input.GetKeyDown(KeyCode.Escape)) playerManager.TogglePause();
     }
 
     private void HandleMouseDrag()
     {
-        if (UnityEngine.Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
-            _lastMousePosition = UnityEngine.Input.mousePosition;
+            _lastMousePosition = Input.mousePosition;
         }
 
-        if (UnityEngine.Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0))
         {
             // Calculate how far the mouse moved IN PIXELS since last frame
-            Vector3 delta = UnityEngine.Input.mousePosition - _lastMousePosition;
+            Vector3 delta = Input.mousePosition - _lastMousePosition;
             
             if (delta.x != 0)
             {
@@ -58,7 +76,7 @@ public class InputHandler : MonoBehaviour
                 ExecuteScroll(moveDistance);
             }
 
-            _lastMousePosition = UnityEngine.Input.mousePosition;
+            _lastMousePosition = Input.mousePosition;
         }
     }
 

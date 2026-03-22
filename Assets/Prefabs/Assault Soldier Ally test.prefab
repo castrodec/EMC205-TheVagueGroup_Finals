@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 3518042706110258497}
   - component: {fileID: 5099104122507294488}
   - component: {fileID: 4826154500345187833}
-  - component: {fileID: 7738029721757959499}
+  - component: {fileID: 8426071669217553107}
   m_Layer: 6
   m_Name: Assault Soldier Ally test
   m_TagString: Ally
@@ -216,9 +216,16 @@ MonoBehaviour:
   currentHealth: 0
   currentAmmo: 0
   target: {fileID: 0}
+  allyInFront: {fileID: 0}
+  unitLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  turretLayer:
+    serializedVersion: 2
+    m_Bits: 128
   isAlly: 1
---- !u!58 &7738029721757959499
-CircleCollider2D:
+--- !u!70 &8426071669217553107
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -247,9 +254,10 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1
+  m_Size: {x: 1, y: 2}
+  m_Direction: 0

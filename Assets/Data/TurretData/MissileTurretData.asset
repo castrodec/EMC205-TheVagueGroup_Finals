@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90bfc7b5f0f74549b2efe83429ec0f4, type: 3}
+  m_Name: MissileTurretData
+  m_EditorClassIdentifier: 
+  turretName: Missile Silo
+  turretType: 1
+  maxHealth: 30
+  turretCost: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  projectileData: {fileID: 11400000, guid: 8a2eefbcb92e4824aa06406035ca493c, type: 2}
+  turretSprite: {fileID: -1617796266927721997, guid: 396cf0d1d078bc747bf7983373088114, type: 3}
+  fireRate: 4
+  detectionRange: 20
+  damage: 4
+  aoeRadius: 0

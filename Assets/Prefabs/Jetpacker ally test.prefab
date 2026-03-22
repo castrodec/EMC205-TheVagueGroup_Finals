@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8300280827757578457}
   - component: {fileID: 4692179372983206391}
   - component: {fileID: 8861033233046537793}
-  - component: {fileID: 4060728520327724566}
+  - component: {fileID: 7172201754918176035}
   m_Layer: 6
-  m_Name: Jetpacker Ally test
+  m_Name: Jetpacker ally test
   m_TagString: Ally
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,9 +105,16 @@ MonoBehaviour:
   currentHealth: 0
   currentAmmo: 0
   target: {fileID: 0}
+  allyInFront: {fileID: 0}
+  unitLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  turretLayer:
+    serializedVersion: 2
+    m_Bits: 128
   isAlly: 1
---- !u!58 &4060728520327724566
-CircleCollider2D:
+--- !u!70 &7172201754918176035
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -136,9 +143,10 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1
+  m_Size: {x: 1, y: 2}
+  m_Direction: 0
