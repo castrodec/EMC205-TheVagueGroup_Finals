@@ -1584,7 +1584,66 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Foot_Soldier_WalkCycle_0: -5124159771281210536
+      Foot_Soldier_WalkCycle_1: 3967169420669677925
+      Foot_Soldier_WalkCycle_10: 2657554715409433091
+      Foot_Soldier_WalkCycle_11: 3242394703393740126
+      Foot_Soldier_WalkCycle_12: -3760796381286266081
+      Foot_Soldier_WalkCycle_13: -5900188923279285659
+      Foot_Soldier_WalkCycle_14: 8410925219733840012
+      Foot_Soldier_WalkCycle_15: -3762596840514971984
+      Foot_Soldier_WalkCycle_16: -5364697016943591813
+      Foot_Soldier_WalkCycle_17: 6403783960616113492
+      Foot_Soldier_WalkCycle_18: -4499824042186044680
+      Foot_Soldier_WalkCycle_19: 3110821996264035308
+      Foot_Soldier_WalkCycle_2: 7711209964771912291
+      Foot_Soldier_WalkCycle_20: 1066310361129704499
+      Foot_Soldier_WalkCycle_21: -4467789113820569879
+      Foot_Soldier_WalkCycle_22: 1172746120341211130
+      Foot_Soldier_WalkCycle_23: 2191022395946522929
+      Foot_Soldier_WalkCycle_24: 8735642826738854469
+      Foot_Soldier_WalkCycle_25: -3028016824997099997
+      Foot_Soldier_WalkCycle_26: -2964697202452026554
+      Foot_Soldier_WalkCycle_27: -182144941164359566
+      Foot_Soldier_WalkCycle_28: -4601279145950228533
+      Foot_Soldier_WalkCycle_29: 5754664004365281988
+      Foot_Soldier_WalkCycle_3: 3931047897529043224
+      Foot_Soldier_WalkCycle_30: 1985371380678035781
+      Foot_Soldier_WalkCycle_31: -1939779624487614338
+      Foot_Soldier_WalkCycle_32: -8623195721038400398
+      Foot_Soldier_WalkCycle_33: 4750199772162628152
+      Foot_Soldier_WalkCycle_34: -962205899111698115
+      Foot_Soldier_WalkCycle_35: -5114673000890047907
+      Foot_Soldier_WalkCycle_36: 6068991184260668622
+      Foot_Soldier_WalkCycle_37: -7743863850745741309
+      Foot_Soldier_WalkCycle_38: -455633747510640310
+      Foot_Soldier_WalkCycle_39: 6012232633308548917
+      Foot_Soldier_WalkCycle_4: 1671826482250588238
+      Foot_Soldier_WalkCycle_40: -7086395591858011940
+      Foot_Soldier_WalkCycle_41: 3599142177581124922
+      Foot_Soldier_WalkCycle_42: 2903260134024328785
+      Foot_Soldier_WalkCycle_43: -9221710031898249936
+      Foot_Soldier_WalkCycle_44: 4027034890773103332
+      Foot_Soldier_WalkCycle_45: 6937711527004247600
+      Foot_Soldier_WalkCycle_46: -3431673759626571715
+      Foot_Soldier_WalkCycle_47: 8102937772952625621
+      Foot_Soldier_WalkCycle_48: 5033646716667806816
+      Foot_Soldier_WalkCycle_49: 7240349082352280577
+      Foot_Soldier_WalkCycle_5: 8935705533918991782
+      Foot_Soldier_WalkCycle_50: 7992191564472745794
+      Foot_Soldier_WalkCycle_51: -7887557816997777935
+      Foot_Soldier_WalkCycle_52: 7938227079369049545
+      Foot_Soldier_WalkCycle_53: -5460651987268474489
+      Foot_Soldier_WalkCycle_54: -4320327054698715670
+      Foot_Soldier_WalkCycle_55: -4878424818760595598
+      Foot_Soldier_WalkCycle_56: 4480606364446076442
+      Foot_Soldier_WalkCycle_57: -7359715135157712937
+      Foot_Soldier_WalkCycle_58: 7541636806435295285
+      Foot_Soldier_WalkCycle_6: -5074278245883906129
+      Foot_Soldier_WalkCycle_7: -1080721269794672486
+      Foot_Soldier_WalkCycle_8: 4096652278852599496
+      Foot_Soldier_WalkCycle_9: 7699527980325543436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      agnes-tachyon-low-cortisol_0: -4477256025259625623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
