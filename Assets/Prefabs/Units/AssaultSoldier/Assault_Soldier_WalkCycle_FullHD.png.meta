@@ -1,0 +1,1617 @@
+fileFormatVersion: 2
+guid: 4a32ea9a9f89df9478e8f65cd96f872c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2048939791719131638
+    second: Assault_Soldier_WalkCycle_FullHD_0
+  - first:
+      213: 5419707604525547818
+    second: Assault_Soldier_WalkCycle_FullHD_1
+  - first:
+      213: -3311718989835004966
+    second: Assault_Soldier_WalkCycle_FullHD_2
+  - first:
+      213: -8627321883120950410
+    second: Assault_Soldier_WalkCycle_FullHD_3
+  - first:
+      213: 8728362879524336347
+    second: Assault_Soldier_WalkCycle_FullHD_4
+  - first:
+      213: 7373903528526389518
+    second: Assault_Soldier_WalkCycle_FullHD_5
+  - first:
+      213: -6728459132866845910
+    second: Assault_Soldier_WalkCycle_FullHD_6
+  - first:
+      213: 8690693819438716439
+    second: Assault_Soldier_WalkCycle_FullHD_7
+  - first:
+      213: 4378586754645289168
+    second: Assault_Soldier_WalkCycle_FullHD_8
+  - first:
+      213: 574520282803975281
+    second: Assault_Soldier_WalkCycle_FullHD_9
+  - first:
+      213: -7112603967429628006
+    second: Assault_Soldier_WalkCycle_FullHD_10
+  - first:
+      213: 6702059486545617737
+    second: Assault_Soldier_WalkCycle_FullHD_11
+  - first:
+      213: 5654858203715114597
+    second: Assault_Soldier_WalkCycle_FullHD_12
+  - first:
+      213: 4033661061926702320
+    second: Assault_Soldier_WalkCycle_FullHD_13
+  - first:
+      213: 1641211381347764902
+    second: Assault_Soldier_WalkCycle_FullHD_14
+  - first:
+      213: 7854534200369287541
+    second: Assault_Soldier_WalkCycle_FullHD_15
+  - first:
+      213: 5502338381038947965
+    second: Assault_Soldier_WalkCycle_FullHD_16
+  - first:
+      213: 5669486297708375524
+    second: Assault_Soldier_WalkCycle_FullHD_17
+  - first:
+      213: 6264046662895855284
+    second: Assault_Soldier_WalkCycle_FullHD_18
+  - first:
+      213: 7410449201705756960
+    second: Assault_Soldier_WalkCycle_FullHD_19
+  - first:
+      213: 2343788933289840430
+    second: Assault_Soldier_WalkCycle_FullHD_20
+  - first:
+      213: -490952928193436646
+    second: Assault_Soldier_WalkCycle_FullHD_21
+  - first:
+      213: -8070528611020173183
+    second: Assault_Soldier_WalkCycle_FullHD_22
+  - first:
+      213: -2438065015479556595
+    second: Assault_Soldier_WalkCycle_FullHD_23
+  - first:
+      213: -7997084205238377824
+    second: Assault_Soldier_WalkCycle_FullHD_24
+  - first:
+      213: 3558072363268608375
+    second: Assault_Soldier_WalkCycle_FullHD_25
+  - first:
+      213: -9117040530398864903
+    second: Assault_Soldier_WalkCycle_FullHD_26
+  - first:
+      213: -7663156878642113650
+    second: Assault_Soldier_WalkCycle_FullHD_27
+  - first:
+      213: 7399426709971758889
+    second: Assault_Soldier_WalkCycle_FullHD_28
+  - first:
+      213: -4654763212159331154
+    second: Assault_Soldier_WalkCycle_FullHD_29
+  - first:
+      213: -906997482346462506
+    second: Assault_Soldier_WalkCycle_FullHD_30
+  - first:
+      213: 8947021410734726260
+    second: Assault_Soldier_WalkCycle_FullHD_31
+  - first:
+      213: 8569773680401790500
+    second: Assault_Soldier_WalkCycle_FullHD_32
+  - first:
+      213: 4804650738917503345
+    second: Assault_Soldier_WalkCycle_FullHD_33
+  - first:
+      213: -4330653251763683094
+    second: Assault_Soldier_WalkCycle_FullHD_34
+  - first:
+      213: -311456306754184843
+    second: Assault_Soldier_WalkCycle_FullHD_35
+  - first:
+      213: 6489605839125536629
+    second: Assault_Soldier_WalkCycle_FullHD_36
+  - first:
+      213: -4558177950170052401
+    second: Assault_Soldier_WalkCycle_FullHD_37
+  - first:
+      213: 4365911578251993477
+    second: Assault_Soldier_WalkCycle_FullHD_38
+  - first:
+      213: 4306842004863930157
+    second: Assault_Soldier_WalkCycle_FullHD_39
+  - first:
+      213: -5249957313250095065
+    second: Assault_Soldier_WalkCycle_FullHD_40
+  - first:
+      213: 4691866120388074583
+    second: Assault_Soldier_WalkCycle_FullHD_41
+  - first:
+      213: -8207107522492071118
+    second: Assault_Soldier_WalkCycle_FullHD_42
+  - first:
+      213: 1953238065645334148
+    second: Assault_Soldier_WalkCycle_FullHD_43
+  - first:
+      213: 9065296317025161229
+    second: Assault_Soldier_WalkCycle_FullHD_44
+  - first:
+      213: 4834712077109367188
+    second: Assault_Soldier_WalkCycle_FullHD_45
+  - first:
+      213: -4257037775624750079
+    second: Assault_Soldier_WalkCycle_FullHD_46
+  - first:
+      213: 6530193925506001180
+    second: Assault_Soldier_WalkCycle_FullHD_47
+  - first:
+      213: 4580014062170593563
+    second: Assault_Soldier_WalkCycle_FullHD_48
+  - first:
+      213: -6693525505466886931
+    second: Assault_Soldier_WalkCycle_FullHD_49
+  - first:
+      213: -4756198849176640047
+    second: Assault_Soldier_WalkCycle_FullHD_50
+  - first:
+      213: -6264817058469812971
+    second: Assault_Soldier_WalkCycle_FullHD_51
+  - first:
+      213: -9111594447763107333
+    second: Assault_Soldier_WalkCycle_FullHD_52
+  - first:
+      213: 1495536496720926343
+    second: Assault_Soldier_WalkCycle_FullHD_53
+  - first:
+      213: 4992142076517750759
+    second: Assault_Soldier_WalkCycle_FullHD_54
+  - first:
+      213: -5440972425700950904
+    second: Assault_Soldier_WalkCycle_FullHD_55
+  - first:
+      213: -4275597296106893252
+    second: Assault_Soldier_WalkCycle_FullHD_56
+  - first:
+      213: 4766894055377613910
+    second: Assault_Soldier_WalkCycle_FullHD_57
+  - first:
+      213: -443955254059902267
+    second: Assault_Soldier_WalkCycle_FullHD_58
+  - first:
+      213: 5935879089305106117
+    second: Assault_Soldier_WalkCycle_FullHD_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3484
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a061b6c7d14b093e0800000000000000
+      internalID: -2048939791719131638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_1
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 3483
+        width: 503
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a218a3af95ba63b40800000000000000
+      internalID: 5419707604525547818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_2
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 3484
+        width: 497
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad318feff196a02d0800000000000000
+      internalID: -3311718989835004966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_3
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 3486
+        width: 490
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6732f91f478954880800000000000000
+      internalID: -8627321883120950410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_4
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 3487
+        width: 481
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2f0c84bcf512970800000000000000
+      internalID: 8728362879524336347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_5
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 3488
+        width: 471
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01a0d9c03e555660800000000000000
+      internalID: 7373903528526389518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_6
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 3483
+        width: 445
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a232dbb4116bf92a0800000000000000
+      internalID: -6728459132866845910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_7
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 3481
+        width: 420
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716d357cbfb8b9870800000000000000
+      internalID: 8690693819438716439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2985
+        width: 397
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8ecd0647dd3cc30800000000000000
+      internalID: 4378586754645289168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_9
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 2989
+        width: 418
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174b9cc372b19f700800000000000000
+      internalID: 574520282803975281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_10
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2997
+        width: 443
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fa2553064fa4d90800000000000000
+      internalID: -7112603967429628006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_11
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 3010
+        width: 467
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943a61f089f720d50800000000000000
+      internalID: 6702059486545617737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_12
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 3025
+        width: 488
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56694a753971a7e40800000000000000
+      internalID: 5654858203715114597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_13
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 3044
+        width: 507
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc47745d517af730800000000000000
+      internalID: 4033661061926702320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_14
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 3050
+        width: 511
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aacf8a4e01c6c610800000000000000
+      internalID: 1641211381347764902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_15
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 3044
+        width: 513
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5711b297d39e00d60800000000000000
+      internalID: 7854534200369287541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2542
+        width: 514
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e03dbda9b3c5c40800000000000000
+      internalID: 5502338381038947965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_17
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2539
+        width: 514
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed2ad1efbf0eae40800000000000000
+      internalID: 5669486297708375524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_18
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 2537
+        width: 512
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6e066604d5ee650800000000000000
+      internalID: 6264046662895855284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_19
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 2537
+        width: 509
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029afb5694437d660800000000000000
+      internalID: 7410449201705756960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_20
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 2527
+        width: 497
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f8b3ded9fc68020800000000000000
+      internalID: 2343788933289840430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_21
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 2519
+        width: 484
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14a799b9e8cf29f0800000000000000
+      internalID: -490952928193436646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_22
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 2515
+        width: 470
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180148edcf8bfff80800000000000000
+      internalID: -8070528611020173183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_23
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 2515
+        width: 455
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06a80d29c04a2ed0800000000000000
+      internalID: -2438065015479556595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_24
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2010
+        width: 453
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a221e32946a40190800000000000000
+      internalID: -7997084205238377824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_25
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 2004
+        width: 448
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77192c186ffc06130800000000000000
+      internalID: 3558072363268608375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_26
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1998
+        width: 440
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f99cb611f3c97180800000000000000
+      internalID: -9117040530398864903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_27
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1994
+        width: 429
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8312768b6ff6a590800000000000000
+      internalID: -7663156878642113650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_28
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1991
+        width: 415
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f676d836b00b660800000000000000
+      internalID: 7399426709971758889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_29
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 1989
+        width: 398
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4dfa14585f66fb0800000000000000
+      internalID: -4654763212159331154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_30
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1991
+        width: 404
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2c0946892b963f0800000000000000
+      internalID: -906997482346462506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_31
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 1996
+        width: 427
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c58a8d1943a2c70800000000000000
+      internalID: 8947021410734726260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_32
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1506
+        width: 449
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42637d9f1c3fde670800000000000000
+      internalID: 8569773680401790500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_33
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1517
+        width: 470
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171fef2146c8da240800000000000000
+      internalID: 4804650738917503345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_34
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1536
+        width: 490
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae04c33ffcd66e3c0800000000000000
+      internalID: -4330653251763683094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_35
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1543
+        width: 506
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5799cd0a32c7dabf0800000000000000
+      internalID: -311456306754184843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_36
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1545
+        width: 516
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fd0659026bf0a50800000000000000
+      internalID: 6489605839125536629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_37
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 1547
+        width: 520
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc88819fd491eb0c0800000000000000
+      internalID: -4558177950170052401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_38
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 1548
+        width: 520
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581a976e275d69c30800000000000000
+      internalID: 4365911578251993477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_39
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 1550
+        width: 514
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f45ab1cf9f4cb30800000000000000
+      internalID: 4306842004863930157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1036
+        width: 513
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72093c993a76427b0800000000000000
+      internalID: -5249957313250095065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_41
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1021
+        width: 511
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cdb6fb06bdc1140800000000000000
+      internalID: 4691866120388074583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_42
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1008
+        width: 510
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2338c60013f7a1e80800000000000000
+      internalID: -8207107522492071118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_43
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 999
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48eaf880cab4b1b10800000000000000
+      internalID: 1953238065645334148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_44
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 999
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0011f768f66ecd70800000000000000
+      internalID: 9065296317025161229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_45
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 999
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491156bc409581340800000000000000
+      internalID: 4834712077109367188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_46
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 999
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cb774a2b6fbe4c0800000000000000
+      internalID: -4257037775624750079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_47
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 999
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19e23cd6c8ef9a50800000000000000
+      internalID: 6530193925506001180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 502
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19d8f9068a7f8f30800000000000000
+      internalID: 4580014062170593563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_49
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 792
+        width: 183
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de411af3402db13a0800000000000000
+      internalID: -6693525505466886931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_50
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 502
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d564b998569efdb0800000000000000
+      internalID: -4756198849176640047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_51
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 502
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5156917e316ee09a0800000000000000
+      internalID: -6264817058469812971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_52
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 502
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf198a3002d1d8180800000000000000
+      internalID: -9111594447763107333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_53
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 502
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786dea3258631c410800000000000000
+      internalID: 1495536496720926343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_54
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 502
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e71f13e4c6a74540800000000000000
+      internalID: 4992142076517750759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_55
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 502
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c36650868cd74b0800000000000000
+      internalID: -5440972425700950904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_56
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c309dea89e60aa4c0800000000000000
+      internalID: -4275597296106893252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_57
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 5
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65434b423e8672240800000000000000
+      internalID: 4766894055377613910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_58
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 5
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca57917c01c6d9f0800000000000000
+      internalID: -443955254059902267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assault_Soldier_WalkCycle_FullHD_59
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 5
+        width: 508
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c633b3059a706250800000000000000
+      internalID: 5935879089305106117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
