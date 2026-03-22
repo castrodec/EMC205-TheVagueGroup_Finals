@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8300280827757578457}
   - component: {fileID: 4692179372983206391}
   - component: {fileID: 8861033233046537793}
-  - component: {fileID: 4060728520327724566}
+  - component: {fileID: 5628995021941109423}
   m_Layer: 6
   m_Name: Foot Soldier Ally Test
   m_TagString: Ally
@@ -105,10 +105,16 @@ MonoBehaviour:
   currentHealth: 0
   currentAmmo: 0
   target: {fileID: 0}
+  allyInFront: {fileID: 0}
+  unitLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  turretLayer:
+    serializedVersion: 2
+    m_Bits: 128
   isAlly: 1
-  targetTag: 
---- !u!58 &4060728520327724566
-CircleCollider2D:
+--- !u!70 &5628995021941109423
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -142,4 +148,5 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1
+  m_Size: {x: 1, y: 2}
+  m_Direction: 0

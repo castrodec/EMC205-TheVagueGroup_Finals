@@ -1,16 +1,11 @@
 using UnityEngine;
 
-public class GameOverState : MonoBehaviour
+public class GameOverState : IState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    private GameManager playerManager;
+    public GameOverState(GameManager playerManager) => this.playerManager = playerManager;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public void Enter() { }
+    public void Tick() { }
+    public void Exit() { }
 }

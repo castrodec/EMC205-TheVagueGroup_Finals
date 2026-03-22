@@ -12,7 +12,7 @@ public class MarchingState : IState
     public void Tick()
     {
         // Use the Controller's detection logic to see if we should fight
-        if (_unit.DetectEnemy())
+        if (_unit.DetectEnemy() || _unit.DetectTurret())
         {
             _unit.ChangeState(_unit.attackingState);
         }

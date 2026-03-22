@@ -14,8 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turretName: Shocker Trap
   turretType: 2
-  maxHealth: 1
-  cost: 0
+  maxHealth: 3
+  turretCost: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  projectileData: {fileID: 0}
+  turretSprite: {fileID: 7937007890137499022, guid: 95d1f2496092c0044aecfab1d4ba8e75, type: 3}
   fireRate: 0
-  range: 1
+  detectionRange: 1
   damage: 5
+  aoeRadius: 3

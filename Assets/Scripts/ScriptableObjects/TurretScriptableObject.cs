@@ -9,10 +9,14 @@ public class TurretScriptableObject : ScriptableObject
     public string turretName;
     public TurretType turretType;
     public int maxHealth;
-    public int cost;
+    public int turretCost;
+    public LayerMask targetLayer;
+    public ProjectileScriptableObject projectileData;
+    public Sprite turretSprite;
 
     [Header("Combat Data")]
     public float fireRate;
-    public float range;
+    public float detectionRange;
     public int damage;
+    public int aoeRadius;
 }

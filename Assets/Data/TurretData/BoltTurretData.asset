@@ -15,7 +15,13 @@ MonoBehaviour:
   turretName: Basic Turret
   turretType: 0
   maxHealth: 10
-  cost: 0
+  turretCost: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  projectileData: {fileID: 11400000, guid: 2ed8d4aba277caa4293ec569e397735b, type: 2}
+  turretSprite: {fileID: -6120030870088862048, guid: 376196ddd0267ba47892b036929637f4, type: 3}
   fireRate: 2
-  range: 4
+  detectionRange: 10
   damage: 2
+  aoeRadius: 0

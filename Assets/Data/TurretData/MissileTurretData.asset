@@ -15,7 +15,13 @@ MonoBehaviour:
   turretName: Missile Silo
   turretType: 1
   maxHealth: 30
-  cost: 0
+  turretCost: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  projectileData: {fileID: 11400000, guid: 8a2eefbcb92e4824aa06406035ca493c, type: 2}
+  turretSprite: {fileID: -1617796266927721997, guid: 396cf0d1d078bc747bf7983373088114, type: 3}
   fireRate: 4
-  range: 5
+  detectionRange: 20
   damage: 4
+  aoeRadius: 0

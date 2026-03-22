@@ -1,16 +1,14 @@
 using UnityEngine;
 
-public class PlayState : MonoBehaviour
+public class PlayState : IState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    private GameManager playerManager;
+    public PlayState(GameManager playerManager) => this.playerManager = playerManager;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void Enter() 
+    { 
+        Time.timeScale = 1f; 
     }
+    public void Tick() { }
+    public void Exit() { }
 }

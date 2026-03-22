@@ -49,6 +49,7 @@ public class WaveManager : MonoBehaviour
     private Queue<WaveDefinition> waveQueue = new Queue<WaveDefinition>();
     public bool isSpawning = false;
     public int activeEnemyCount = 0;
+    private int enemyMaxCountThisWave = 0;
 
     void Awake()
     {
@@ -59,8 +60,6 @@ public class WaveManager : MonoBehaviour
         foreach (WaveDefinition wave in waveDefinitions) {
             waveQueue.Enqueue(wave);
         }
-
-        StartNextWave();
     }
 
     public void StartNextWave()
@@ -68,6 +67,7 @@ public class WaveManager : MonoBehaviour
         if (waveQueue.Count > 0 && !isSpawning && activeEnemyCount == 0)
         {
             UIManager.Instance.UpdateStartWaveButton(false);
+            enemyMaxCountThisWave = waveQueue.Peek().GetRandomizedSpawnList().Count;
             StartCoroutine(SpawnWaveRoutine(waveQueue.Dequeue()));
         }
     }
@@ -80,6 +80,7 @@ public class WaveManager : MonoBehaviour
         foreach (var enemyData in spawnList)
         {
             activeEnemyCount++; // Increment count BEFORE spawning
+            UIManager.Instance.UpdateWaveCountDisplay(activeEnemyCount, enemyMaxCountThisWave);
             SpawnUnitCommand spawn = new SpawnUnitCommand(enemyData, spawnPoint.position, false);
             spawn.Execute();
             yield return new WaitForSeconds(spawnInterval);
@@ -90,7 +91,7 @@ public class WaveManager : MonoBehaviour
 
     public void EnemyDied() {
         activeEnemyCount--;
-
+        UIManager.Instance.UpdateWaveCountDisplay(activeEnemyCount, enemyMaxCountThisWave);
         if (activeEnemyCount <= 0 && !isSpawning) {
             if (waveQueue.Count > 0) UIManager.Instance.UpdateStartWaveButton(true);
             else Debug.Log("VICTORY! All waves cleared.");

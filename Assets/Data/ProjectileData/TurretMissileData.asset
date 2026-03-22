@@ -16,7 +16,7 @@ MonoBehaviour:
   projectileDamage: 4
   isAOE: 1
   lifeTime: 5
-  aoeRadius: 3
+  aoeRadius: 5
   targetLayer:
     serializedVersion: 2
     m_Bits: 64

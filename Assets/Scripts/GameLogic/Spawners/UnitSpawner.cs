@@ -22,6 +22,7 @@ public class UnitSpawner : MonoBehaviour
         if (dataQueue.Count < maxQueuedUnits && ResourceManager.Instance.RemoveCoins(data.unitCost)) 
         {
             dataQueue.Enqueue(data);
+            UIManager.Instance.UpdateQueueUI(dataQueue.ToArray());
         }
         else Debug.Log("Spawner is full!");
     }
@@ -33,10 +34,16 @@ public class UnitSpawner : MonoBehaviour
             if (dataQueue.Count > 0)
             {
                 selectedData = dataQueue.Dequeue();
+                UIManager.Instance.UpdateQueueUI(dataQueue.ToArray());
                 SpawnUnitCommand spawn = new SpawnUnitCommand(selectedData, spawnPoint.position, true);
                 spawn.Execute();
             }
             yield return new WaitForSeconds(spawnInterval);
         }
+    }
+
+    public UnitScriptableObject[] GetQueueArray()
+    {
+        return dataQueue.ToArray();
     }
 }

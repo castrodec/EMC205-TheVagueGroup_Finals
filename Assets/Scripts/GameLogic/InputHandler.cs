@@ -2,16 +2,30 @@ using UnityEngine;
 
 public class InputHandler : MonoBehaviour
 {
-
+    [Header("Camera Input Settings")]
     public CameraController cameraController;
     public float keyboardSpeed = 30f;
     public float dragSensitivity = 0.05f; 
     private Vector3 _lastMousePosition;
 
+    [Header("References")]
+    public UnitSpawner unitSpawner;
+    public AirStrikeHandler airStrikeHandler;
+    public GameManager playerManager;
+    public BuildManager buildManager;
+
+    [Header("UnitData")]
+    public UnitScriptableObject footSoldier, assaultSoldier, jetpacker;
+
+    [Header("TurretData")]
+    public TurretScriptableObject basicTurret, missileSilo, shockTrap;
+    
+
     private void Update()
     {
         HandleKeyboard();
         HandleMouseDrag();
+        HandleHotkeys(); // New method
     }
 
     private void HandleKeyboard()
@@ -22,6 +36,25 @@ public class InputHandler : MonoBehaviour
             float speed = x * keyboardSpeed * Time.deltaTime;
             ExecuteScroll(speed);
         }
+    }
+
+    private void HandleHotkeys()
+    {
+        // --- UNITS (1, 2, 3) ---
+        if (Input.GetKeyDown(KeyCode.Alpha1)) unitSpawner.EnqueueSummon(footSoldier);
+        if (Input.GetKeyDown(KeyCode.Alpha2)) unitSpawner.EnqueueSummon(assaultSoldier);
+        if (Input.GetKeyDown(KeyCode.Alpha3)) unitSpawner.EnqueueSummon(jetpacker);
+
+        // --- BUILD MODE (E, R, T) ---
+        if (Input.GetKeyDown(KeyCode.E)) buildManager.EnterBuildMode(basicTurret);
+        if (Input.GetKeyDown(KeyCode.R)) buildManager.EnterBuildMode(missileSilo);
+        if (Input.GetKeyDown(KeyCode.T)) buildManager.EnterBuildMode(shockTrap);
+
+        // --- ABILITIES (Q) ---
+        if (Input.GetKeyDown(KeyCode.Q)) airStrikeHandler.StartAirStrike();
+
+        // --- PAUSE (ESC) ---
+        if (Input.GetKeyDown(KeyCode.Escape)) playerManager.TogglePause();
     }
 
     private void HandleMouseDrag()
