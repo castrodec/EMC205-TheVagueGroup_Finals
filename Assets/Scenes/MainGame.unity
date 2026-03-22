@@ -792,6 +792,8 @@ MonoBehaviour:
       count: 15
   spawnPoint: {fileID: 1668667680}
   spawnInterval: 1
+  isSpawning: 0
+  activeEnemyCount: 0
 --- !u!1 &251459485
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,6 +2171,16 @@ MonoBehaviour:
   cameraController: {fileID: 1721573515}
   keyboardSpeed: 30
   dragSensitivity: 0.05
+  unitSpawner: {fileID: 0}
+  airStrikeHandler: {fileID: 0}
+  playerManager: {fileID: 0}
+  buildManager: {fileID: 0}
+  footSoldier: {fileID: 0}
+  assaultSoldier: {fileID: 0}
+  jetpacker: {fileID: 0}
+  basicTurret: {fileID: 0}
+  missileSilo: {fileID: 0}
+  shockTrap: {fileID: 0}
 --- !u!4 &626711313
 Transform:
   m_ObjectHideFlags: 0
@@ -2281,7 +2293,7 @@ Canvas:
   m_GameObject: {fileID: 629403329}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2901,6 +2913,7 @@ MonoBehaviour:
   healthDisplay: {fileID: 112171318}
   waveCountDisplay: {fileID: 1777255317}
   startWaveButton: {fileID: 1877254234}
+  queueSlots: []
 --- !u!1 &726651102
 GameObject:
   m_ObjectHideFlags: 0
@@ -4897,7 +4910,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 20
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4922,7 +4935,7 @@ Transform:
   m_GameObject: {fileID: 1721573510}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
