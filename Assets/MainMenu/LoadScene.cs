@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuManager : MonoBehaviour
+public class LoadScene : MonoBehaviour
 {
     //Setup
     //Step 1: Place this script on the parent Canvas.
