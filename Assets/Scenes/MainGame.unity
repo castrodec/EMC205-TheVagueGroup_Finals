@@ -777,17 +777,17 @@ MonoBehaviour:
   - waveName: Wave 2
     enemyGroups:
     - unitData: {fileID: 11400000, guid: 0ae11e5f7c3f9a54f90f41e7dda2e0b2, type: 2}
-      count: 30
+      count: 50
     - unitData: {fileID: 11400000, guid: 4d86c34f848ee1040b108135abefebb5, type: 2}
-      count: 15
+      count: 20
     - unitData: {fileID: 11400000, guid: 9a355b17790e10c46b331e21b9c74f73, type: 2}
-      count: 2
+      count: 3
   - waveName: Wave 3
     enemyGroups:
     - unitData: {fileID: 11400000, guid: 0ae11e5f7c3f9a54f90f41e7dda2e0b2, type: 2}
-      count: 45
+      count: 60
     - unitData: {fileID: 11400000, guid: 4d86c34f848ee1040b108135abefebb5, type: 2}
-      count: 30
+      count: 40
     - unitData: {fileID: 11400000, guid: 9a355b17790e10c46b331e21b9c74f73, type: 2}
       count: 15
   spawnPoint: {fileID: 1668667680}
@@ -2114,7 +2114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 0.6392157}
+  m_Color: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 0.3882353}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4333,7 +4333,7 @@ Transform:
   m_GameObject: {fileID: 1453957082}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -0.3, z: 0}
+  m_LocalPosition: {x: 0.3, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4847,7 +4847,7 @@ Transform:
   m_GameObject: {fileID: 1668667679}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.3, z: 0}
+  m_LocalPosition: {x: -0.3, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
