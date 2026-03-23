@@ -2701,20 +2701,20 @@ MonoBehaviour:
     prefab: {fileID: 7661075178358823623, guid: dfbe6e414106db849a6f864855e506b6, type: 3}
   - label: Bolt
     data: {fileID: 11400000, guid: 2ed8d4aba277caa4293ec569e397735b, type: 2}
-    prefab: {fileID: 0}
+    prefab: {fileID: 313296133945244009, guid: 8b5a7a6cbe4517d47882d3d3bb80a95a, type: 3}
   - label: Rocket
     data: {fileID: 11400000, guid: 8a2eefbcb92e4824aa06406035ca493c, type: 2}
-    prefab: {fileID: 0}
+    prefab: {fileID: 104962074600685948, guid: 62a28361f861a8942b27738c2450171c, type: 3}
   turretDefinitions:
   - label: Basic Turret
     data: {fileID: 11400000, guid: da71a23ecfa2be441af69f58b3926f8c, type: 2}
-    prefab: {fileID: 0}
+    prefab: {fileID: 1643428530677262194, guid: 7a17a5c730b0be847a4ba7155fd251cb, type: 3}
   - label: Missile Silo
     data: {fileID: 11400000, guid: bba3998e252b785459abbc348edafb09, type: 2}
-    prefab: {fileID: 0}
+    prefab: {fileID: 7424152493250265775, guid: 92d1fef49bb26fc4fb9da9e623697106, type: 3}
   - label: Shocker Trap
     data: {fileID: 11400000, guid: 643ff2f31f6479c4597fdb5ffcd65eb7, type: 2}
-    prefab: {fileID: 0}
+    prefab: {fileID: 5591908806692071551, guid: da95e23b579d17b4e99f2f257214e59a, type: 3}
 --- !u!4 &668106152
 Transform:
   m_ObjectHideFlags: 0
@@ -2913,7 +2913,13 @@ MonoBehaviour:
   healthDisplay: {fileID: 112171318}
   waveCountDisplay: {fileID: 1777255317}
   startWaveButton: {fileID: 1877254234}
-  queueSlots: []
+  queueSlots:
+  - {fileID: 1018910504}
+  - {fileID: 1987502824}
+  - {fileID: 646321608}
+  - {fileID: 942926900}
+  - {fileID: 1608694948}
+  - {fileID: 1048435637}
 --- !u!1 &726651102
 GameObject:
   m_ObjectHideFlags: 0

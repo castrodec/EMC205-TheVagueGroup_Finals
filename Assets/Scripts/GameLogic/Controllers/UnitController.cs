@@ -119,7 +119,7 @@ public class UnitController : MonoBehaviour, IDamageable
     {
         _pool.Release(this);
         if (!isAlly) {
-            ResourceManager.Instance.AddCoins(Mathf.RoundToInt(unitData.unitCost * 1.2f));
+            ResourceManager.Instance.AddCoins(Mathf.RoundToInt(unitData.unitCost * 1.5f));
             WaveManager.Instance.EnemyDied();
         }
     }
@@ -134,8 +134,8 @@ public class UnitController : MonoBehaviour, IDamageable
         isAlly = ally;
         gameObject.tag = isAlly ? "Ally" : "Enemy";
         unitData = data;
-        Color color = ally ? Color.green : Color.red;
-        GetComponent<SpriteRenderer>().color = color;
+        //Color color = ally ? Color.green : Color.red;
+        //GetComponent<SpriteRenderer>().color = color;
         ChangeState(data.attackType.Equals(UnitScriptableObject.AttackType.Flying) ? flyingState : marchingState);
     }
 
