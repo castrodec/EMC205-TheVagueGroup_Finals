@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 2a8b3e8da6c3f1c47998a3c5a9e70b0a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9203609607780010179
+    second: JetPack_FullHD_0
+  - first:
+      213: -8598835206102556075
+    second: JetPack_FullHD_1
+  - first:
+      213: -2621735403123604535
+    second: JetPack_FullHD_2
+  - first:
+      213: 3370149875353272653
+    second: JetPack_FullHD_3
+  - first:
+      213: -1315205349121878510
+    second: JetPack_FullHD_4
+  - first:
+      213: -8474312059040321813
+    second: JetPack_FullHD_5
+  - first:
+      213: 8926842812152225014
+    second: JetPack_FullHD_6
+  - first:
+      213: -1058229243457473069
+    second: JetPack_FullHD_7
+  - first:
+      213: -5364130652333456585
+    second: JetPack_FullHD_8
+  - first:
+      213: 2118730065634320258
+    second: JetPack_FullHD_9
+  - first:
+      213: -4343668275969929464
+    second: JetPack_FullHD_10
+  - first:
+      213: 3644913116014416457
+    second: JetPack_FullHD_11
+  - first:
+      213: 8283218389953208895
+    second: JetPack_FullHD_12
+  - first:
+      213: -9084376732210896200
+    second: JetPack_FullHD_13
+  - first:
+      213: 7128807244664889261
+    second: JetPack_FullHD_14
+  - first:
+      213: -515968923832211922
+    second: JetPack_FullHD_15
+  - first:
+      213: -4236869843963176176
+    second: JetPack_FullHD_16
+  - first:
+      213: -6540766330930115113
+    second: JetPack_FullHD_17
+  - first:
+      213: 6272894617510311870
+    second: JetPack_FullHD_18
+  - first:
+      213: -4384827326195762329
+    second: JetPack_FullHD_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JetPack_FullHD_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 677
+        width: 166
+        height: 677
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3776e413d5364080800000000000000
+      internalID: -9203609607780010179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JetPack_FullHD_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 676
+        width: 166
+        height: 678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c380c99a89bd9bd0800000000000000
+      internalID: -2621735403123604535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JetPack_FullHD_4
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 686
+        width: 166
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21695e604b37fbde0800000000000000
+      internalID: -1315205349121878510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JetPack_FullHD_6
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 688
+        width: 166
+        height: 666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc1510cd3482eb70800000000000000
+      internalID: 8926842812152225014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JetPack_FullHD_8
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 689
+        width: 168
+        height: 665
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73341e29797ce85b0800000000000000
+      internalID: -5364130652333456585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JetPack_FullHD_10
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 691
+        width: 167
+        height: 663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fcdac77b038b3c0800000000000000
+      internalID: -4343668275969929464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JetPack_FullHD_12
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 691
+        width: 167
+        height: 663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32e4224d37e3f270800000000000000
+      internalID: 8283218389953208895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JetPack_FullHD_14
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 690
+        width: 167
+        height: 664
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf5b724b6c9ee260800000000000000
+      internalID: 7128807244664889261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JetPack_FullHD_16
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 691
+        width: 167
+        height: 663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b9207235d9335c0800000000000000
+      internalID: -4236869843963176176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JetPack_FullHD_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 166
+        height: 675
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7792e5b6ccd0750800000000000000
+      internalID: 6272894617510311870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 457e80646df3fd341bf7f9213d7b683d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      JetPack_FullHD_0: -9203609607780010179
+      JetPack_FullHD_1: -8598835206102556075
+      JetPack_FullHD_10: -4343668275969929464
+      JetPack_FullHD_11: 3644913116014416457
+      JetPack_FullHD_12: 8283218389953208895
+      JetPack_FullHD_13: -9084376732210896200
+      JetPack_FullHD_14: 7128807244664889261
+      JetPack_FullHD_15: -515968923832211922
+      JetPack_FullHD_16: -4236869843963176176
+      JetPack_FullHD_17: -6540766330930115113
+      JetPack_FullHD_18: 6272894617510311870
+      JetPack_FullHD_19: -4384827326195762329
+      JetPack_FullHD_2: -2621735403123604535
+      JetPack_FullHD_3: 3370149875353272653
+      JetPack_FullHD_4: -1315205349121878510
+      JetPack_FullHD_5: -8474312059040321813
+      JetPack_FullHD_6: 8926842812152225014
+      JetPack_FullHD_7: -1058229243457473069
+      JetPack_FullHD_8: -5364130652333456585
+      JetPack_FullHD_9: 2118730065634320258
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
