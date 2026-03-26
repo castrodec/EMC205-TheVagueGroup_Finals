@@ -30,16 +30,8 @@ public class UIManager : MonoBehaviour
     {
         for (int i = 0; i < queueSlots.Length; i++)
         {
-            if (i < currentQueue.Length)
-            {
-                // Show the unit sprite
-                queueSlots[i].color = Color.white; // Make sure it's visible
-            }
-            else
-            {
-                // Hide or show empty
-                queueSlots[i].color = new Color(1, 1, 1, 0.10f); // Transparent if no empty sprite
-            }
+            if (i < currentQueue.Length) queueSlots[i].color = Color.white;
+            else queueSlots[i].color = new Color(1, 1, 1, 0.10f); 
         }
     }
     /// <summary>
@@ -49,4 +41,5 @@ public class UIManager : MonoBehaviour
     public void ToggleUnitsMenu() { }
     public void ToggleTurretsMenu() { }
     public void ToggleSettingsMenu() { }
+    public void ToggleGameOverMenu() { }
 }

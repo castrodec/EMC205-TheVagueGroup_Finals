@@ -1,6 +1,11 @@
 using UnityEngine;
 using UnityEngine.Pool;
 
+/// <summary>
+/// Controller class for unit behavior.
+/// Contains methods for unit movement, targeting, and damage. Also contains the state machine that handles 
+/// the unit's current state.
+/// </summary>
 public class UnitController : MonoBehaviour, IDamageable
 {
     public UnitScriptableObject unitData;
@@ -12,7 +17,7 @@ public class UnitController : MonoBehaviour, IDamageable
     public bool isAlly;
     private IObjectPool<UnitController> _pool;
 
-    private void Awake() // Use Awake for state initialization
+    private void Awake() 
     {
         marchingState = new MarchingState(this);
         attackingState = new AttackingState(this);
@@ -29,12 +34,11 @@ public class UnitController : MonoBehaviour, IDamageable
         currentState?.Enter();
     }
 
-    // --- CORE LOGIC METHODS ---
-
-    public void HandleBasicMovement()
-    {
-        transform.Translate(Vector2.right * unitData.moveSpeed * Time.deltaTime);
-    }
+    /// <summary>
+    /// Set of logic methods used for unit movement.
+    /// 
+    /// </summary>
+    public void HandleBasicMovement() => transform.Translate(Vector2.right * unitData.moveSpeed * Time.deltaTime);
 
     public bool DetectEnemy()
     {

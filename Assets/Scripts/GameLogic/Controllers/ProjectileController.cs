@@ -1,7 +1,10 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Pool;
 
+/// <summary>
+/// Controller class for projectile behavior.
+/// Contains methods for moving the projectile and returning it to the pool.
+/// </summary>
 public class ProjectileController : MonoBehaviour
 {
     public ProjectileScriptableObject projectileData;
@@ -12,6 +15,15 @@ public class ProjectileController : MonoBehaviour
     private IObjectPool<ProjectileController> _pool;
     private float _timer;
 
+    /// <summary>
+    /// Projectiles can either be initialized with a target or a direction.
+    ///  
+    /// If the projectile is initialized with a target, it will move towards the target.
+    /// If the target initialized is no longer active, it changes to the closest active enemy.
+    /// If there is none, it returns to the pool.
+    /// 
+    /// If the projectile is initialized with a direction, it will move in that direction.
+    /// </summary>
     void Update()
     {
         _timer += Time.deltaTime;
@@ -19,10 +31,7 @@ public class ProjectileController : MonoBehaviour
 
         if (_target != null)
         {
-            // HOMING LOGIC: Move toward the transform
             transform.position = Vector2.MoveTowards(transform.position, _target.transform.position, projectileData.projectileSpeed * Time.deltaTime);
-            
-            // Rotate to face the moving target
             Vector2 dir = (_target.transform.position - transform.position).normalized;
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
@@ -39,10 +48,7 @@ public class ProjectileController : MonoBehaviour
         }
         else
         {
-            // DOWNWARD LOGIC: Move straight down
             transform.Translate(_direction * projectileData.projectileSpeed * Time.deltaTime, Space.World);
-            
-            // Rotate to face the moving direction
             float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         }
@@ -73,22 +79,27 @@ public class ProjectileController : MonoBehaviour
         projectileData = data;
     }
 
+    /// <summary>
+    /// Triggers when the projectile collides with something.
+    /// 
+    /// Calls ApplyDamage, which checks the projectileData if the projectile is an AOE.
+    /// Switches logic based on that value. 
+    /// </summary>
     void OnTriggerEnter2D(Collider2D other)
     {
         string targetTag = _isAllyProjectile ? "Enemy" : "Ally";
         if (other.CompareTag(targetTag))
         {
-            ApplyDirectDamage(other.gameObject);
+            ApplyDamage(other.gameObject);
         }
         
         if (other.CompareTag("Floor")) ReturnProjectile();
     }
 
-    void ApplyDirectDamage(GameObject hitObject)
+    void ApplyDamage(GameObject hitObject)
     {
         if (projectileData.isAOE)
         {
-            // AOE Logic
             Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, projectileData.aoeRadius, LayerMask.GetMask("Units"));
             foreach (Collider2D h in hits)
             {

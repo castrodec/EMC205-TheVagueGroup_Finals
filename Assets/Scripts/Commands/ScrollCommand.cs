@@ -1,3 +1,6 @@
+/// <summary>
+/// Command class for camera scrolling.
+/// </summary>
 public class ScrollCommand : ICommand
 {
     private CameraController _receiver;
@@ -9,10 +12,7 @@ public class ScrollCommand : ICommand
         _distance = distance;
     }
 
-    public void Execute()
-    {
-        _receiver.Move(_distance);
-    }
+    public void Execute() => _receiver.Move(_distance);
 
     public void Undo() => _receiver.Move(-_distance);
 }
