@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour, IDamageable
 
     public void Update() => currentState?.Tick();
 
+    
     public void TakeDamage(int damage)
     {
         Health -= damage;
@@ -49,4 +50,11 @@ public class GameManager : MonoBehaviour, IDamageable
     {
         ChangeState(gameOverState);
     }
+    [ContextMenu("TakeDamage")]
+    public void CommandDamage(){
+        Health -= 1     ;
+        UIManager.Instance.UpdateHealthDisplay(Health);
+        if (Health <= 0) Die();
+        }
+
 }
