@@ -20,7 +20,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   projectileData: {fileID: 0}
-  turretSprite: {fileID: 7937007890137499022, guid: 95d1f2496092c0044aecfab1d4ba8e75, type: 3}
+  turretSprite: {fileID: -2178438192367311684, guid: 3da757b13b600ce4ab8c775bf82f73b4, type: 3}
   fireRate: 0
   detectionRange: 1
   damage: 5

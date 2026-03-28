@@ -1,11 +1,6 @@
 using UnityEngine;
 using UnityEngine.Pool;
 
-/// <summary>
-/// Controller class for unit behavior.
-/// Contains methods for unit movement, targeting, and damage. Also contains the state machine that handles 
-/// the unit's current state.
-/// </summary>
 public class UnitController : MonoBehaviour, IDamageable
 {
     public UnitScriptableObject unitData;
@@ -17,7 +12,7 @@ public class UnitController : MonoBehaviour, IDamageable
     public bool isAlly;
     private IObjectPool<UnitController> _pool;
 
-    private void Awake() 
+    private void Awake() // Use Awake for state initialization
     {
         marchingState = new MarchingState(this);
         attackingState = new AttackingState(this);
@@ -34,11 +29,12 @@ public class UnitController : MonoBehaviour, IDamageable
         currentState?.Enter();
     }
 
-    /// <summary>
-    /// Set of logic methods used for unit movement.
-    /// 
-    /// </summary>
-    public void HandleBasicMovement() => transform.Translate(Vector2.right * unitData.moveSpeed * Time.deltaTime);
+    // --- CORE LOGIC METHODS ---
+
+    public void HandleBasicMovement()
+    {
+        transform.Translate(Vector2.right * unitData.moveSpeed * Time.deltaTime);
+    }
 
     public bool DetectEnemy()
     {
@@ -123,7 +119,7 @@ public class UnitController : MonoBehaviour, IDamageable
     {
         _pool.Release(this);
         if (!isAlly) {
-            ResourceManager.Instance.AddCoins(Mathf.RoundToInt(unitData.unitCost * 1.2f));
+            ResourceManager.Instance.AddCoins(Mathf.RoundToInt(unitData.unitCost * 1.5f));
             WaveManager.Instance.EnemyDied();
         }
     }
@@ -138,8 +134,8 @@ public class UnitController : MonoBehaviour, IDamageable
         isAlly = ally;
         gameObject.tag = isAlly ? "Ally" : "Enemy";
         unitData = data;
-        Color color = ally ? Color.green : Color.red;
-        GetComponent<SpriteRenderer>().color = color;
+        //Color color = ally ? Color.green : Color.red;
+        //GetComponent<SpriteRenderer>().color = color;
         ChangeState(data.attackType.Equals(UnitScriptableObject.AttackType.Flying) ? flyingState : marchingState);
     }
 

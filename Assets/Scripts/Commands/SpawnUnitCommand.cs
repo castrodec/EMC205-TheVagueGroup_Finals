@@ -1,8 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// Command class for spawning units via object pooling.
-/// </summary>
 public class SpawnUnitCommand : ICommand
 {
     private UnitScriptableObject _unitData;
@@ -16,7 +13,11 @@ public class SpawnUnitCommand : ICommand
         _isAlly = isAlly;
     }
 
-    public void Execute() => ObjectPooler.Instance.SpawnUnit(_unitData, _spawnPosition, _isAlly);
+    public void Execute()
+    {
+        ObjectPooler.Instance.SpawnUnit(_unitData, _spawnPosition, _isAlly);
+    }
 
-    public void Undo() { }
+    public void Undo() 
+    { }
 }
